@@ -1,0 +1,26 @@
+@import '@stackbit/components/styles/default.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'theme.css';
+
+.sb-component-quote-section blockquote {
+    background: rgba(220, 78, 86, 0.38);
+    padding: 1rem;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.sb-component-contact-section {
+    background: linear-gradient(180deg, #ea7052 0%, #dc4e56 100%);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.sb-component-featured-posts-section {
+    article {
+        border-radius: 40px;
+    }
+    .sb-component-image-block {
+        border-radius: 40px 40px 0px 0px;
+    }
+}

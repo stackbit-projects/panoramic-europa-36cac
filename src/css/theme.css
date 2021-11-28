@@ -1,0 +1,40 @@
+@import 'tailwindcss/components';
+/*
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+@layer components {
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-festive;
+    }
+}
+*/
+
+@layer components {
+    .colors-c {
+        .sb-component-button-primary {
+            @apply bg-primary border-primary text-primary-content;
+        }
+    }
+
+    .sb-component-link {
+        text-transform: uppercase;
+        @apply font-bold;
+    }
+
+    .sb-component-button-secondary {
+        @apply border-4;
+    }
+
+    .sb-component-header.colors-b {
+        @apply bg-complementary;
+    }
+
+    .sb-component-button-primary {
+        span {
+            @apply text-secondary;
+        }
+    }
+}
